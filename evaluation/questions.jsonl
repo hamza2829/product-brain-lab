@@ -1,0 +1,50 @@
+{"id":"q01","question":"Why did guided setup lead with a teammate invitation instead of CSV import?","expected_ids":["CF-001","SLACK-001"]}
+{"id":"q02","question":"What did trial admins say about having a spreadsheet ready for guided setup?","expected_ids":["CF-002","SLACK-002"]}
+{"id":"q03","question":"Which onboarding cohort would try invite-first setup before assisted implementation was added?","expected_ids":["CF-003","SP-001"]}
+{"id":"q04","question":"How are we measuring whether a new workspace gets two collaborators in its first week?","expected_ids":["CF-004","SP-002"]}
+{"id":"q05","question":"According to Jira, what does support own when a user skips inviting teammates in guided setup?","sources":["jira"],"expected_ids":["JIRA-002"]}
+{"id":"q06","question":"Why did we choose a Monday activity digest over daily notifications?","expected_ids":["CF-005","SLACK-021"]}
+{"id":"q07","question":"Did customers want another feed, or one recap they could read after a trip?","expected_ids":["CF-006","SLACK-022"]}
+{"id":"q08","question":"Who gets to try the weekly recap before administrators who set notification policies?","expected_ids":["CF-007","SP-003"]}
+{"id":"q09","question":"Which success measures will the activity digest review use for email churn and repeat visits?","expected_ids":["CF-008","SP-004"]}
+{"id":"q10","question":"What is the support escalation path for Monday digest delivery, and who owns the unsubscribe macro?","expected_ids":["JIRA-017","SLACK-023","SP-003"]}
+{"id":"q11","question":"Why do public share links now expire after seven days?","expected_ids":["CF-009","SLACK-041"]}
+{"id":"q12","question":"What did agency coordinators say about sharing with a client who has no login?","expected_ids":["CF-010","SLACK-042"]}
+{"id":"q13","question":"Where does the release playbook say to test link expiration before regulated workspaces?","sources":["sharepoint"],"expected_ids":["SP-005"]}
+{"id":"q14","question":"How will we count external reviews that need a share link reopened?","expected_ids":["CF-012","SP-006"]}
+{"id":"q15","question":"What should support have ready when an agency asks how to get a fresh link?","expected_ids":["JIRA-032","SLACK-043","SP-005"]}
+{"id":"q16","question":"Why did the renewal dashboard put product adoption ahead of unpaid invoices?","expected_ids":["CF-013","SLACK-061"]}
+{"id":"q17","question":"What did account leads say they couldn't infer from a red invoice?","expected_ids":["CF-014","SLACK-062"]}
+{"id":"q18","question":"Who is in the renewal dashboard pilot before the regional portfolio view?","expected_ids":["CF-015","SP-007"]}
+{"id":"q19","question":"What does the measurement worksheet count for accounts close to renewal?","sources":["sharepoint"],"expected_ids":["SP-008"]}
+{"id":"q20","question":"Which team fixes invoice problems and which one responds to stale usage on the renewal dashboard?","expected_ids":["JIRA-047","SLACK-063","SP-007"]}
+{"id":"q21","question":"Why does the intake board suggest duplicates before a request reaches triage?","expected_ids":["CF-017","SLACK-081"]}
+{"id":"q22","question":"What did requesters insist on retaining even if they joined an existing intake item?","expected_ids":["CF-018","SLACK-082"]}
+{"id":"q23","question":"Will the duplicate suggestion pilot start on the internal queue or external forms?","expected_ids":["CF-019","SP-009"]}
+{"id":"q24","question":"What metric should show that the intake workflow saves reviewer time?","expected_ids":["CF-020","SP-010"]}
+{"id":"q25","question":"What is the Jira handoff when an intake request is merged incorrectly?","sources":["jira"],"expected_ids":["JIRA-062"]}
+{"id":"q26","question":"Why does audit export show both UTC and the actor's timezone?","expected_ids":["CF-021","SLACK-101"]}
+{"id":"q27","question":"What did compliance reviewers say about reconciling a downloaded log with an incident at 4:15?","expected_ids":["CF-022","SLACK-102"]}
+{"id":"q28","question":"Who tests the audit export before we lock the CSV format for scheduled runs?","expected_ids":["CF-023","SP-011"]}
+{"id":"q29","question":"How do we measure whether timezone clarification was needed in evidence reviews?","expected_ids":["CF-024","SP-012"]}
+{"id":"q30","question":"In the support briefing, who maintains the audit export timezone example and field glossary?","sources":["slack"],"expected_ids":["SLACK-103"]}
+{"id":"q31","question":"Why are saved views private initially instead of immediately visible to the team?","expected_ids":["CF-025","SLACK-121"]}
+{"id":"q32","question":"What did operators say about another person's exploratory filters appearing in their sidebar?","expected_ids":["CF-026","SLACK-122"]}
+{"id":"q33","question":"What cohort comes before team templates in the saved views pilot?","expected_ids":["CF-027","SP-013"]}
+{"id":"q34","question":"How do we define repeat use of a personal saved view?","expected_ids":["CF-028","SP-014"]}
+{"id":"q35","question":"Who owns the missing-view checklist and instructions for taking a view back out of the shared menu?","expected_ids":["JIRA-092","SLACK-123","SP-013"]}
+{"id":"q36","question":"Why was an acknowledgement added before a new workspace owner takes control?","expected_ids":["CF-029","SLACK-141"]}
+{"id":"q37","question":"What did retiring workspace admins say about knowing whether their successor saw the handover?","expected_ids":["CF-030","SLACK-142"]}
+{"id":"q38","question":"Does the workspace handoff pilot cover unplanned transfers or only scheduled departures?","expected_ids":["CF-031","SP-015"]}
+{"id":"q39","question":"What is the target window counted in the workspace handoff completion metric?","from_date":"2025-05-01","to_date":"2025-06-20","expected_ids":["CF-032","SP-016"]}
+{"id":"q40","question":"Who maintains reminders for pending ownership transfers and the backup-contact instructions?","expected_ids":["JIRA-107","SLACK-143","SP-015"]}
+{"id":"q41","question":"Why does the billing team warn at 80 percent instead of waiting for the monthly usage limit?","expected_ids":["CF-033","SLACK-161"]}
+{"id":"q42","question":"What did budget owners say about getting a purchase approved after the cap was already reached?","expected_ids":["CF-034","SLACK-162"]}
+{"id":"q43","question":"Which usage alerts cohort comes before pooling and custom thresholds?","expected_ids":["CF-035","SP-017"]}
+{"id":"q44","question":"Which billing measure ties acknowledged early warnings to customers who exceed the cap?","expected_ids":["CF-036","SP-018"]}
+{"id":"q45","question":"Who explains usage allowances and who resolves a discrepancy in the usage meter?","expected_ids":["JIRA-122","SLACK-163","SP-017"]}
+{"id":"q46","question":"Why did the phone approval flow require a reason for rejections?","expected_ids":["CF-037","SLACK-181"]}
+{"id":"q47","question":"What did on-call approvers say they needed before handling a request from a phone?","expected_ids":["CF-038","SLACK-182"]}
+{"id":"q48","question":"In the Confluence strategy, who tries mobile approvals before managers get bulk actions?","sources":["confluence"],"expected_ids":["CF-039"]}
+{"id":"q49","question":"Which mobile approvals metrics compare speed and reopened requests?","expected_ids":["CF-040","SP-020"]}
+{"id":"q50","question":"Who should help with a draft mobile rejection that didn't send while offline?","expected_ids":["JIRA-137","SLACK-183","SP-019"]}

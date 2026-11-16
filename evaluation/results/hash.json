@@ -1,0 +1,1246 @@
+{
+  "cases": [
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-001",
+        "CF-001"
+      ],
+      "expected_ids": [
+        "CF-001",
+        "SLACK-001"
+      ],
+      "id": "q01",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Why did guided setup lead with a teammate invitation instead of CSV import?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-001",
+        "CF-001",
+        "JIRA-001",
+        "SP-001",
+        "SLACK-010"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-002",
+        "CF-002"
+      ],
+      "expected_ids": [
+        "CF-002",
+        "SLACK-002"
+      ],
+      "id": "q02",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What did trial admins say about having a spreadsheet ready for guided setup?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-002",
+        "CF-002",
+        "JIRA-002",
+        "SLACK-001",
+        "SLACK-013"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-003",
+        "SP-001"
+      ],
+      "expected_ids": [
+        "CF-003",
+        "SP-001"
+      ],
+      "id": "q03",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Which onboarding cohort would try invite-first setup before assisted implementation was added?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "CF-003",
+        "SP-001",
+        "CF-001",
+        "CF-005",
+        "CF-025"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-030"
+      ],
+      "expected_ids": [
+        "CF-004",
+        "SP-002"
+      ],
+      "id": "q04",
+      "missed_ids": [
+        "CF-004",
+        "SP-002"
+      ],
+      "non_gold_citations": [
+        "CF-030"
+      ],
+      "question": "How are we measuring whether a new workspace gets two collaborators in its first week?",
+      "recall_at_5": 0.0,
+      "retrieved_ids": [
+        "CF-030",
+        "CF-025",
+        "SP-001",
+        "SLACK-121",
+        "CF-002"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-002",
+        "JIRA-001"
+      ],
+      "expected_ids": [
+        "JIRA-002"
+      ],
+      "id": "q05",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "JIRA-001"
+      ],
+      "question": "According to Jira, what does support own when a user skips inviting teammates in guided setup?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "JIRA-002",
+        "JIRA-001",
+        "JIRA-006",
+        "JIRA-012",
+        "JIRA-005"
+      ],
+      "sources": [
+        "jira"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-021",
+        "SLACK-022"
+      ],
+      "expected_ids": [
+        "CF-005",
+        "SLACK-021"
+      ],
+      "id": "q06",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "SLACK-022"
+      ],
+      "question": "Why did we choose a Monday activity digest over daily notifications?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-021",
+        "SLACK-022",
+        "JIRA-017",
+        "SLACK-023",
+        "CF-005"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-022",
+        "CF-006"
+      ],
+      "expected_ids": [
+        "CF-006",
+        "SLACK-022"
+      ],
+      "id": "q07",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Did customers want another feed, or one recap they could read after a trip?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-022",
+        "CF-006",
+        "CF-021",
+        "SLACK-002",
+        "SLACK-181"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-007",
+        "SP-003"
+      ],
+      "expected_ids": [
+        "CF-007",
+        "SP-003"
+      ],
+      "id": "q08",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Who gets to try the weekly recap before administrators who set notification policies?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "CF-007",
+        "SP-003",
+        "SLACK-021",
+        "JIRA-016",
+        "SLACK-101"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-008",
+        "SLACK-021"
+      ],
+      "expected_ids": [
+        "CF-008",
+        "SP-004"
+      ],
+      "id": "q09",
+      "missed_ids": [
+        "SP-004"
+      ],
+      "non_gold_citations": [
+        "SLACK-021"
+      ],
+      "question": "Which success measures will the activity digest review use for email churn and repeat visits?",
+      "recall_at_5": 0.5,
+      "retrieved_ids": [
+        "CF-008",
+        "SLACK-021",
+        "JIRA-016",
+        "CF-005",
+        "SLACK-040"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-017",
+        "SLACK-023"
+      ],
+      "expected_ids": [
+        "JIRA-017",
+        "SLACK-023",
+        "SP-003"
+      ],
+      "id": "q10",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What is the support escalation path for Monday digest delivery, and who owns the unsubscribe macro?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "JIRA-017",
+        "SLACK-023",
+        "SP-003",
+        "JIRA-077",
+        "SLACK-103"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-031",
+        "SLACK-041"
+      ],
+      "expected_ids": [
+        "CF-009",
+        "SLACK-041"
+      ],
+      "id": "q11",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "JIRA-031"
+      ],
+      "question": "Why do public share links now expire after seven days?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "JIRA-031",
+        "SLACK-041",
+        "CF-009",
+        "SLACK-058",
+        "SP-002"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-041"
+      ],
+      "expected_ids": [
+        "CF-010",
+        "SLACK-042"
+      ],
+      "id": "q12",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "SLACK-041"
+      ],
+      "question": "What did agency coordinators say about sharing with a client who has no login?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-041",
+        "CF-010",
+        "SLACK-042",
+        "CF-009",
+        "JIRA-091"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-005"
+      ],
+      "expected_ids": [
+        "SP-005"
+      ],
+      "id": "q13",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Where does the release playbook say to test link expiration before regulated workspaces?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-005",
+        "SP-011",
+        "SP-001",
+        "SP-007",
+        "SP-013"
+      ],
+      "sources": [
+        "sharepoint"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-006",
+        "CF-012"
+      ],
+      "expected_ids": [
+        "CF-012",
+        "SP-006"
+      ],
+      "id": "q14",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "How will we count external reviews that need a share link reopened?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-006",
+        "CF-012",
+        "SP-020",
+        "JIRA-032",
+        "JIRA-031"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-043",
+        "JIRA-032"
+      ],
+      "expected_ids": [
+        "JIRA-032",
+        "SLACK-043",
+        "SP-005"
+      ],
+      "id": "q15",
+      "missed_ids": [
+        "SP-005"
+      ],
+      "non_gold_citations": [],
+      "question": "What should support have ready when an agency asks how to get a fresh link?",
+      "recall_at_5": 0.6666666666666666,
+      "retrieved_ids": [
+        "SLACK-043",
+        "JIRA-032",
+        "JIRA-002",
+        "CF-009",
+        "JIRA-092"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-076",
+        "SLACK-061"
+      ],
+      "expected_ids": [
+        "CF-013",
+        "SLACK-061"
+      ],
+      "id": "q16",
+      "missed_ids": [
+        "CF-013"
+      ],
+      "non_gold_citations": [
+        "SLACK-076"
+      ],
+      "question": "Why did the renewal dashboard put product adoption ahead of unpaid invoices?",
+      "recall_at_5": 0.5,
+      "retrieved_ids": [
+        "SLACK-076",
+        "SLACK-061",
+        "SLACK-073",
+        "SLACK-068",
+        "SLACK-077"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-062",
+        "CF-014"
+      ],
+      "expected_ids": [
+        "CF-014",
+        "SLACK-062"
+      ],
+      "id": "q17",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What did account leads say they couldn't infer from a red invoice?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-062",
+        "CF-014",
+        "SP-007",
+        "CF-015",
+        "SLACK-142"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-015",
+        "SP-007"
+      ],
+      "expected_ids": [
+        "CF-015",
+        "SP-007"
+      ],
+      "id": "q18",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Who is in the renewal dashboard pilot before the regional portfolio view?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "CF-015",
+        "SP-007",
+        "SLACK-069",
+        "CF-013",
+        "SLACK-061"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-008"
+      ],
+      "expected_ids": [
+        "SP-008"
+      ],
+      "id": "q19",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What does the measurement worksheet count for accounts close to renewal?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-008",
+        "SP-010",
+        "SP-012",
+        "SP-016",
+        "SP-018"
+      ],
+      "sources": [
+        "sharepoint"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-047",
+        "SLACK-063"
+      ],
+      "expected_ids": [
+        "JIRA-047",
+        "SLACK-063",
+        "SP-007"
+      ],
+      "id": "q20",
+      "missed_ids": [
+        "SP-007"
+      ],
+      "non_gold_citations": [],
+      "question": "Which team fixes invoice problems and which one responds to stale usage on the renewal dashboard?",
+      "recall_at_5": 0.6666666666666666,
+      "retrieved_ids": [
+        "JIRA-047",
+        "SLACK-063",
+        "SLACK-061",
+        "JIRA-053",
+        "CF-013"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-061",
+        "SLACK-081"
+      ],
+      "expected_ids": [
+        "CF-017",
+        "SLACK-081"
+      ],
+      "id": "q21",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "JIRA-061"
+      ],
+      "question": "Why does the intake board suggest duplicates before a request reaches triage?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "JIRA-061",
+        "SLACK-081",
+        "CF-017",
+        "SP-010",
+        "SLACK-096"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-017"
+      ],
+      "expected_ids": [
+        "CF-018",
+        "SLACK-082"
+      ],
+      "id": "q22",
+      "missed_ids": [
+        "CF-018",
+        "SLACK-082"
+      ],
+      "non_gold_citations": [
+        "CF-017"
+      ],
+      "question": "What did requesters insist on retaining even if they joined an existing intake item?",
+      "recall_at_5": 0.0,
+      "retrieved_ids": [
+        "CF-017",
+        "JIRA-069",
+        "SLACK-090",
+        "SLACK-097",
+        "SLACK-098"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-019",
+        "SP-009"
+      ],
+      "expected_ids": [
+        "CF-019",
+        "SP-009"
+      ],
+      "id": "q23",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Will the duplicate suggestion pilot start on the internal queue or external forms?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "CF-019",
+        "SP-009",
+        "JIRA-023",
+        "JIRA-083",
+        "JIRA-143"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-020"
+      ],
+      "expected_ids": [
+        "CF-020",
+        "SP-010"
+      ],
+      "id": "q24",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What metric should show that the intake workflow saves reviewer time?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "CF-020",
+        "SP-010",
+        "SLACK-088",
+        "JIRA-073",
+        "SLACK-094"
+      ]
+    },
+    {
+      "answer_mode": "insufficient",
+      "cited_ids": [],
+      "expected_ids": [
+        "JIRA-062"
+      ],
+      "id": "q25",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What is the Jira handoff when an intake request is merged incorrectly?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "JIRA-061",
+        "JIRA-062",
+        "JIRA-106",
+        "JIRA-117",
+        "JIRA-072"
+      ],
+      "sources": [
+        "jira"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-076",
+        "SLACK-101"
+      ],
+      "expected_ids": [
+        "CF-021",
+        "SLACK-101"
+      ],
+      "id": "q26",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "JIRA-076"
+      ],
+      "question": "Why does audit export show both UTC and the actor's timezone?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "JIRA-076",
+        "SLACK-101",
+        "CF-021",
+        "JIRA-085",
+        "JIRA-077"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-102",
+        "CF-022"
+      ],
+      "expected_ids": [
+        "CF-022",
+        "SLACK-102"
+      ],
+      "id": "q27",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What did compliance reviewers say about reconciling a downloaded log with an incident at 4:15?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-102",
+        "CF-022",
+        "SLACK-101",
+        "CF-010",
+        "CF-021"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-011",
+        "CF-023"
+      ],
+      "expected_ids": [
+        "CF-023",
+        "SP-011"
+      ],
+      "id": "q28",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Who tests the audit export before we lock the CSV format for scheduled runs?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-011",
+        "CF-023",
+        "SLACK-116",
+        "SLACK-109",
+        "JIRA-085"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-012",
+        "CF-024"
+      ],
+      "expected_ids": [
+        "CF-024",
+        "SP-012"
+      ],
+      "id": "q29",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "How do we measure whether timezone clarification was needed in evidence reviews?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-012",
+        "CF-024",
+        "JIRA-016",
+        "CF-038",
+        "SLACK-101"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-103"
+      ],
+      "expected_ids": [
+        "SLACK-103"
+      ],
+      "id": "q30",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "In the support briefing, who maintains the audit export timezone example and field glossary?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-103",
+        "SLACK-023",
+        "SLACK-117",
+        "SLACK-120",
+        "SLACK-108"
+      ],
+      "sources": [
+        "slack"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-094",
+        "JIRA-092"
+      ],
+      "expected_ids": [
+        "CF-025",
+        "SLACK-121"
+      ],
+      "id": "q31",
+      "missed_ids": [
+        "CF-025"
+      ],
+      "non_gold_citations": [
+        "JIRA-094",
+        "JIRA-092"
+      ],
+      "question": "Why are saved views private initially instead of immediately visible to the team?",
+      "recall_at_5": 0.5,
+      "retrieved_ids": [
+        "JIRA-094",
+        "JIRA-092",
+        "SLACK-121",
+        "CF-027",
+        "JIRA-096"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-122",
+        "CF-026"
+      ],
+      "expected_ids": [
+        "CF-026",
+        "SLACK-122"
+      ],
+      "id": "q32",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What did operators say about another person's exploratory filters appearing in their sidebar?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-122",
+        "CF-026",
+        "SLACK-022",
+        "CF-006",
+        "CF-017"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-027",
+        "SP-013"
+      ],
+      "expected_ids": [
+        "CF-027",
+        "SP-013"
+      ],
+      "id": "q33",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What cohort comes before team templates in the saved views pilot?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "CF-027",
+        "SP-013",
+        "CF-025",
+        "JIRA-105",
+        "SLACK-121"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-091",
+        "SLACK-121"
+      ],
+      "expected_ids": [
+        "CF-028",
+        "SP-014"
+      ],
+      "id": "q34",
+      "missed_ids": [
+        "CF-028",
+        "SP-014"
+      ],
+      "non_gold_citations": [
+        "JIRA-091",
+        "SLACK-121"
+      ],
+      "question": "How do we define repeat use of a personal saved view?",
+      "recall_at_5": 0.0,
+      "retrieved_ids": [
+        "JIRA-091",
+        "SLACK-121",
+        "CF-025",
+        "SLACK-123",
+        "JIRA-092"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-092",
+        "SLACK-123"
+      ],
+      "expected_ids": [
+        "JIRA-092",
+        "SLACK-123",
+        "SP-013"
+      ],
+      "id": "q35",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Who owns the missing-view checklist and instructions for taking a view back out of the shared menu?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "JIRA-092",
+        "SLACK-123",
+        "SP-013",
+        "SLACK-121",
+        "JIRA-010"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-141",
+        "SP-001"
+      ],
+      "expected_ids": [
+        "CF-029",
+        "SLACK-141"
+      ],
+      "id": "q36",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "SP-001"
+      ],
+      "question": "Why was an acknowledgement added before a new workspace owner takes control?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-141",
+        "SP-001",
+        "JIRA-065",
+        "JIRA-106",
+        "CF-029"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-030",
+        "SLACK-142"
+      ],
+      "expected_ids": [
+        "CF-030",
+        "SLACK-142"
+      ],
+      "id": "q37",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What did retiring workspace admins say about knowing whether their successor saw the handover?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "CF-030",
+        "SLACK-142",
+        "CF-002",
+        "CF-022",
+        "SLACK-147"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-015",
+        "CF-031"
+      ],
+      "expected_ids": [
+        "CF-031",
+        "SP-015"
+      ],
+      "id": "q38",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Does the workspace handoff pilot cover unplanned transfers or only scheduled departures?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-015",
+        "CF-031",
+        "CF-029",
+        "SLACK-141",
+        "SLACK-146"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-148",
+        "CF-032"
+      ],
+      "expected_ids": [
+        "CF-032",
+        "SP-016"
+      ],
+      "from_date": "2025-05-01",
+      "id": "q39",
+      "missed_ids": [
+        "SP-016"
+      ],
+      "non_gold_citations": [
+        "SLACK-148"
+      ],
+      "question": "What is the target window counted in the workspace handoff completion metric?",
+      "recall_at_5": 0.5,
+      "retrieved_ids": [
+        "SLACK-148",
+        "CF-032",
+        "SLACK-154",
+        "SLACK-146",
+        "JIRA-112"
+      ],
+      "to_date": "2025-06-20"
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-015",
+        "SLACK-143"
+      ],
+      "expected_ids": [
+        "JIRA-107",
+        "SLACK-143",
+        "SP-015"
+      ],
+      "id": "q40",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Who maintains reminders for pending ownership transfers and the backup-contact instructions?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-015",
+        "SLACK-143",
+        "JIRA-107",
+        "JIRA-106",
+        "SLACK-141"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-161",
+        "CF-033"
+      ],
+      "expected_ids": [
+        "CF-033",
+        "SLACK-161"
+      ],
+      "id": "q41",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Why does the billing team warn at 80 percent instead of waiting for the monthly usage limit?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-161",
+        "CF-033",
+        "JIRA-126",
+        "JIRA-135",
+        "JIRA-132"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SLACK-162",
+        "CF-034"
+      ],
+      "expected_ids": [
+        "CF-034",
+        "SLACK-162"
+      ],
+      "id": "q42",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "What did budget owners say about getting a purchase approved after the cap was already reached?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SLACK-162",
+        "CF-034",
+        "SLACK-047",
+        "SLACK-147",
+        "SLACK-007"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-035",
+        "SP-017"
+      ],
+      "expected_ids": [
+        "CF-035",
+        "SP-017"
+      ],
+      "id": "q43",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Which usage alerts cohort comes before pooling and custom thresholds?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "CF-035",
+        "SP-017",
+        "JIRA-121",
+        "SP-018",
+        "CF-036"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-018",
+        "SLACK-161"
+      ],
+      "expected_ids": [
+        "CF-036",
+        "SP-018"
+      ],
+      "id": "q44",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "SLACK-161"
+      ],
+      "question": "Which billing measure ties acknowledged early warnings to customers who exceed the cap?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-018",
+        "SLACK-161",
+        "CF-036",
+        "SLACK-163",
+        "SP-017"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-017",
+        "JIRA-121"
+      ],
+      "expected_ids": [
+        "JIRA-122",
+        "SLACK-163",
+        "SP-017"
+      ],
+      "id": "q45",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "JIRA-121"
+      ],
+      "question": "Who explains usage allowances and who resolves a discrepancy in the usage meter?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-017",
+        "JIRA-121",
+        "SLACK-163",
+        "SLACK-170",
+        "JIRA-122"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "JIRA-136"
+      ],
+      "expected_ids": [
+        "CF-037",
+        "SLACK-181"
+      ],
+      "id": "q46",
+      "missed_ids": [],
+      "non_gold_citations": [
+        "JIRA-136"
+      ],
+      "question": "Why did the phone approval flow require a reason for rejections?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "JIRA-136",
+        "SLACK-181",
+        "SLACK-183",
+        "CF-037",
+        "SP-019"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-039",
+        "SP-019"
+      ],
+      "expected_ids": [
+        "CF-038",
+        "SLACK-182"
+      ],
+      "id": "q47",
+      "missed_ids": [
+        "CF-038"
+      ],
+      "non_gold_citations": [
+        "CF-039",
+        "SP-019"
+      ],
+      "question": "What did on-call approvers say they needed before handling a request from a phone?",
+      "recall_at_5": 0.5,
+      "retrieved_ids": [
+        "CF-039",
+        "SP-019",
+        "SLACK-081",
+        "SLACK-182",
+        "JIRA-061"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-039"
+      ],
+      "expected_ids": [
+        "CF-039"
+      ],
+      "id": "q48",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "In the Confluence strategy, who tries mobile approvals before managers get bulk actions?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "CF-039",
+        "CF-015",
+        "CF-037",
+        "CF-027",
+        "CF-040"
+      ],
+      "sources": [
+        "confluence"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "SP-020",
+        "CF-040"
+      ],
+      "expected_ids": [
+        "CF-040",
+        "SP-020"
+      ],
+      "id": "q49",
+      "missed_ids": [],
+      "non_gold_citations": [],
+      "question": "Which mobile approvals metrics compare speed and reopened requests?",
+      "recall_at_5": 1.0,
+      "retrieved_ids": [
+        "SP-020",
+        "CF-040",
+        "SLACK-181",
+        "JIRA-145",
+        "CF-037"
+      ]
+    },
+    {
+      "answer_mode": "extractive",
+      "cited_ids": [
+        "CF-037",
+        "SLACK-183"
+      ],
+      "expected_ids": [
+        "JIRA-137",
+        "SLACK-183",
+        "SP-019"
+      ],
+      "id": "q50",
+      "missed_ids": [
+        "JIRA-137"
+      ],
+      "non_gold_citations": [
+        "CF-037"
+      ],
+      "question": "Who should help with a draft mobile rejection that didn't send while offline?",
+      "recall_at_5": 0.6666666666666666,
+      "retrieved_ids": [
+        "CF-037",
+        "SLACK-183",
+        "JIRA-136",
+        "SP-019",
+        "CF-038"
+      ]
+    }
+  ],
+  "chunks": 420,
+  "corpus_sha256": "2d7173d27a899a0f2945d9c7fafefdfbc225050a37efb98698266ac36b5cbf2a",
+  "documents": 410,
+  "embedding_dimensions": 4096,
+  "embeddings": "hash",
+  "questions_sha256": "a98ec272a1d86272038ef7f01c04146082cb1d02c59d0fb805dd70143335f70a",
+  "summary": {
+    "abstentions": 1,
+    "citation_precision": 0.7528089887640449,
+    "matched_citations": 67,
+    "questions": 50,
+    "questions_with_non_gold_citations": 19,
+    "questions_with_retrieval_misses": 11,
+    "recall_at_5": 0.87,
+    "total_citations": 89
+  },
+  "top_k": 5
+}

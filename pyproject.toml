@@ -1,0 +1,44 @@
+[build-system]
+requires = ["hatchling==1.33.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "product-brain-lab"
+version = "0.1.0"
+description = "A local product knowledge search lab with fictional evidence."
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "faiss-cpu==1.16.0",
+    "fastapi==0.163.1",
+    "numpy==2.5.5",
+    "pydantic==2.14.3",
+    "uvicorn==0.54.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "httpx2==2.16.2",
+    "pytest==9.2.0",
+    "ruff==0.17.5",
+]
+models = [
+    "huggingface-hub>=1.0,<2",
+    "sentence-transformers==6.3.0",
+    "torch==2.15.0",
+    "transformers==5.23.0",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["product_brain_lab"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "UP", "B"]
